@@ -10,11 +10,12 @@
     "test:unit:watch": "npm run test:unit -- --watch"
   },
   "keywords": [
-    "Testing",
+    "Unit",
+    "Test",
+    "Mocha",
     "Chai",
     "Webpack",
-    "React",
-    "Unit"
+    "React"
   ],
   "author": "Ginja the ninja",
   "license": "ISC",
