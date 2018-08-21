@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode development --hot --config ./webpack.config.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "test:unit": "mocha --require babel-core/register --require ./src/test/helpers.js --require ./src/test/dom.js 'src/**/*.test.js'",
+    "test:unit:watch": "npm run test:unit -- --watch"
   },
   "keywords": [
-    "Mocha",
+    "Testing",
     "Chai",
     "Webpack",
     "React",
-    "Unit Test"
+    "Unit"
   ],
   "author": "Ginja the ninja",
   "license": "ISC",
@@ -23,7 +24,9 @@
     "babel-loader": "^7.1.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
+    "jsdom": "^12.0.0",
     "mocha": "^5.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
