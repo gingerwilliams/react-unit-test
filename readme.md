@@ -2,7 +2,7 @@
 A unit is the smallest testable part of any software program. A unit test is validation that each unit of the software or component performs as designed.
 http://softwaretestingfundamentals.com/unit-testing/
 
-## Mocha
+## Mocha - JavaScript test framework asynchronous testing
 https://mochajs.org/
 
 ## Chai - insertion library (an equality library)?
