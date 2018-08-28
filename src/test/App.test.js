@@ -6,5 +6,3 @@ describe('hello-world', () => {
         expect(true).to.be.true;
     })
 });
-
-
