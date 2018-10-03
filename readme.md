@@ -13,3 +13,5 @@ https://github.com/jsdom/jsdom
 
 ## Enzyme 
 http://airbnb.io/enzyme/docs/installation/index.html
+
+## Jest
